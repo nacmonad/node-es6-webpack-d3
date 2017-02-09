@@ -1,0 +1,33 @@
+{
+  "name": "d3v4",
+  "version": "1.0.0",
+  "description": "Simple node server with babel.",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js --presets es2015,stage-2"
+  },
+  "keywords": [
+    "d3",
+    "d3v4",
+    "node",
+    "babel"
+  ],
+  "author": "nacmonad",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  },
+  "dependencies": {
+    "d3": "^4.5.0",
+    "express": "^4.14.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-hot-middleware": "^2.16.1"
+  }
+}
