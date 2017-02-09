@@ -11,7 +11,7 @@ const server = new WebpackDevServer(webpack(config), {
 	publicPath:config.output.publicPath,
 	hot:true,
 	historyApiFallback:{
-		index: './0-world/index.html'
+		index: './public/index.html'
 	}
 });
 
