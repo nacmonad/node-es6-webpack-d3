@@ -19,26 +19,3 @@ server.listen(PORT, 'localhost', (err, result)=>{
 	if(err) { console.log(err )}
 	console.log(`Listening at localhost:${PORT}`);
 });
-
-// const app = express();
-// const compiler = webpack(config);
-
-// app.use(require('webpack-dev-middleware')(compiler, {
-//   noInfo: true,
-//   publicPath: config.output.publicPath
-// }));
-
-// app.use(require('webpack-hot-middleware')(compiler));
-
-// app.get('*', function(req, res) {
-//   res.sendFile(path.join(__dirname, '/0-world/index.html'));
-// });
-
-// app.listen(PORT, 'localhost', function(err) {
-//   if (err) {
-//     console.log(err);
-//     return;
-//   }
-
-//   console.log(`Listening at http://localhost:${PORT}`);
-// });
