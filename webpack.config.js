@@ -7,10 +7,10 @@ module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
   entry: [
-  "./0-world/viz.js"
+  "./public/viz.js"
   ],
   output: {
-    path: __dirname +"/0-world",
+    path: __dirname +"/public",
     filename: "bundle.min.js"
   },
   module: {
